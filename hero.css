@@ -433,7 +433,7 @@ text-align: center;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -471,6 +471,7 @@ line-height: 160%;
 letter-spacing: 0%;
 text-align: center;
 
+
 }
 
 /* Responsive */
@@ -487,7 +488,93 @@ text-align: center;
 }
 
 
+/* work lazy section */
 
+.stats-section {
+  background: #F8FAFC;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.stats-icon {
+  font-size: 32px;
+  color: #6C63FF;
+  margin-bottom: 20px;
+}
+
+.stats-title {
+  
+  margin-bottom: 20px;
+  color: #1E293B;
+  font-family: Plus Jakarta Sans;
+font-weight: 800;
+font-size: 36px;
+line-height: 44px;
+letter-spacing: -1.4%;
+text-align: center;
+
+}
+
+.stats-subtitle {
+  
+  color: #475569;
+  max-width: 600px;
+  margin: 0 auto 40px;
+  
+  font-family: Plus Jakarta Sans;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 0%;
+text-align: center;
+
+
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: center;
+  gap: 63px;
+  flex-wrap: wrap;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-value {
+  
+  color: #4F46E5;
+  font-family: Plus Jakarta Sans;
+font-weight: 700;
+font-size: 60px;
+line-height: 68px;
+letter-spacing: -1.8%;
+text-align: center;
+margin-top: 33px;
+
+}
+
+.stat-label {
+  
+  color: #475569;
+  margin-top: 8px;
+  font-family: Plus Jakarta Sans;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: -0.8%;
+text-align: center;
+
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .stats-grid {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
 
 
 /* Responsive */
