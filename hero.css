@@ -484,14 +484,14 @@ text-align: center;
   padding: 80px 20px;
   max-width: 1200px;
   margin: 0 auto;
-  /* flex-wrap: wrap;
+   /* flex-wrap: wrap;
   gap: 40px; */
 }
 
-.content {
+/* .content {
   flex: 1; 
-   min-width: 280px;
-}
+   /* min-width: 280px; */
+ 
 
 .image-description{
   display: flex;
@@ -534,6 +534,14 @@ font-size: 36px;
 line-height: 44px;
 letter-spacing: -1.4%;
 
+
+
+}
+.section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 .section-description {
